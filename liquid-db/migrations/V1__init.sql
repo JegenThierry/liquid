@@ -1,0 +1,2 @@
+-- Placeholder migration. Migrations live here and are applied by Flyway
+-- (wired up in liquid-api later). No jOOQ/Flyway integration yet.
