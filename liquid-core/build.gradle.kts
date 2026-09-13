@@ -4,6 +4,8 @@ plugins {
 }
 
 dependencies {
+    implementation(project(":liquid-api"))
+
     implementation(libs.spring.boot.starter)
     implementation(libs.spring.tx)
 

@@ -1,14 +1,10 @@
-pluginManagement {
-    plugins {
-        kotlin("plugin.lombok") version "2.3.21"
-    }
-}
 rootProject.name = "liquid"
 
 include(
     "liquid-api",
     "liquid-jooq",
     "liquid-core",
+    "liquid-rest",
     "liquid-export",
     "liquid-db"
 )

@@ -1,9 +1,9 @@
-package thierry.beer.liquid.api
+package thierry.beer.liquid.rest
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = ["thierry.beer.liquid"])
 class LiquidApplication
 
 fun main(args: Array<String>) {

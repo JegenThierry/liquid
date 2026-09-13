@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: liquid
+  security:
+    user:
+      name: admin
+      password: admin

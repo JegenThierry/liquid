@@ -1,4 +1,4 @@
-package thierry.beer.liquid.export
+package thierry.beer.liquid.export.services
 
 import org.springframework.stereotype.Service
 

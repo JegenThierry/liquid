@@ -1,0 +1,8 @@
+# Test-scoped config: the datasource-backed auto-configurations (jOOQ, Flyway)
+# require a running database. Exclude them so the context can load without one.
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration
+      - org.springframework.boot.flyway.autoconfigure.FlywayAutoConfiguration
+      - org.springframework.boot.jooq.autoconfigure.JooqAutoConfiguration

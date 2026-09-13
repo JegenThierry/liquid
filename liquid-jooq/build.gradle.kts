@@ -4,7 +4,7 @@ plugins {
 }
 
 dependencies {
-    api(project(":liquid-api"))
+    implementation(project(":liquid-api"))
 
     implementation(libs.spring.boot.starter.jooq)
 
